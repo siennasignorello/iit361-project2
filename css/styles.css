@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
   background-color: #C4A484; 
   color: #5C4033; 
+  max-width: 100%;
 }
 
 ul.navbar {
@@ -21,11 +22,11 @@ ul.navbar {
   padding: 0; 
   display: flex;
   justify-content: space-around; 
-  border-bottom: none;
+  border: none;
 }
 
 ul.navbar li {
-  width: 32%;
+  width: 25%;
 }
 
 ul.navbar li a {
@@ -44,6 +45,7 @@ section {
   background-color: #FF99CC;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  clear: both;
 }
 
 section img {
