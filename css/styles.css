@@ -55,11 +55,12 @@ img {
   height: auto;
   border-radius: 5px; 
   float: left;
+  margin-right: 2%;
 }
 
 h1, h2 {
   color: #FF6699; 
-  position: absolute;
+  position: 2%;
 }
 
 p {
