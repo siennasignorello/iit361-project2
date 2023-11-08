@@ -57,6 +57,13 @@ section ul {
   list-style: none;
 }
 
+.image-container {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+  overflow: hidden;
+}
+
 img {
   max-width: 100%;
   height: auto;
