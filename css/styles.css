@@ -46,6 +46,13 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  clear: both; /* Add this to ensure images don't float over the sections */
+}
+
 section ul {
   list-style: none;
 }
